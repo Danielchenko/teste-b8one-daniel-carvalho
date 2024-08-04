@@ -1,0 +1,62 @@
+.card{
+    width: 304px;
+    height: 568px;
+    padding: 32px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.card:hover{
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.28);
+    -webkit-transition: box-shadow 0.3s ease-in-out 0s;
+    -moz-transition: box-shadow 0.3s ease-in-out 0s;
+    -o-transition: box-shadow 0.3s ease-in-out 0s;
+    -ms-transition: box-shadow 0.3s ease-in-out 0s;
+    transition: box-shadow 0.3s ease-in-out 0s;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.productName{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.productPrice{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #b5b5b6;
+    text-decoration: line-through;
+}
+
+.productDiscount{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #da4b4f;
+}
+
+.productInstallment{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8b8b8b;
+}
+
+.productInstallment span{
+    color: #1c1c1c;
+}
+ 
