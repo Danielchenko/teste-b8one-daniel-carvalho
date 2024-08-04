@@ -25,8 +25,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 <p className={styles.productInstallment}>em até {product.installment}x de <span>{formatCurrency((product.discountValue / product.installment))}</span> sem juros</p>
               </div>
             </div>
-            <BuyButton />
-            <Wishlist />
+            <BuyButton id={product.id} />
+            <Wishlist  id={product.id}/>
           </div>
           
         </>
